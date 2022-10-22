@@ -1,7 +1,7 @@
 # Washed-Pwd-Manager
 ## Disclaimer: This project was mostly made for fun and as so, the encryption algorithm in this program is very basic, if you're looking for a more secure password manager I recommend using [pass](https://www.passwordstore.org/)
 ### Description
-Washed-Pwd-Manager is an easy to use, completely offline and open source password manager. It's very small and only uses basic C++ header files for ery little dependencies. Currently it is completely console based but I might make a GUI version in the future
+Washed-Pwd-Manager is an easy to use, completely offline and open source password manager. It's very small and only uses basic C++ header files for very little dependencies. Currently it is completely console based but I might make a GUI version in the future
 
 ### How to use:
 Using the program is very simple just make sure there's a folder called "Saved" in the same file directory as the program and run it, on startup the program will check if files it saves (specifically "Verify.pass" exists) and if it doesn't it will enter into the setup phase where it asks you for a master password before using the program, enter a secure master password between 1 and 32 characters and confirm it to complete setup and enter the main program. On subsequent launches of the program the program will prompt you for your master password before it allows you to enter the program. Once you are inside the program there are 6 pretty self explanatory options, here's what each of the following options does:
